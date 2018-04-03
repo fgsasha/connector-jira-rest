@@ -446,7 +446,7 @@ public class JiraObjectsProcessing {
 	URIBuilder getURIBuilder() {
 		String baseHost = configuration.getBaseUrl();
 		URIBuilder uri = new URIBuilder();
-		uri.setScheme("http");
+		uri.setScheme("https");
 		uri.setHost(baseHost);
 		uri.setPath(URI_BASE_PATH);
 		return uri;
